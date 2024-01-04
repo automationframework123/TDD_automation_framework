@@ -1,0 +1,9 @@
+16:02:47.051 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Starting TC_001_OrangeDemoLoginPageTest *****
+16:02:47.079 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Entering valid username and password from config file  *****
+16:02:47.620 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Clicked on LoginButton link *****
+16:02:50.836 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - Login test passed
+16:02:50.838 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Finished TC_001_OrangeDemoLoginPageTestTest *****
+16:08:43.738 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Starting TC_001_OrangeDemoLoginPageTest *****
+16:08:43.773 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Entering valid username and password from config file  *****
+16:08:44.203 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Clicked on LoginButton link *****
+16:08:54.835 [main] ERROR testCases.TC_001_OrangeDemoLoginPageTest - Login test failed
