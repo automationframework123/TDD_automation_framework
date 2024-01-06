@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_001_OrangeDemoLoginPageTest">
+      <class name="testCases.TC_002_addemployee">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verify_orangehrmaccount_login"/>
+          <include name="verify_addemployee"/>
         </methods>
-      </class> <!-- testCases.TC_001_OrangeDemoLoginPageTest -->
+      </class> <!-- testCases.TC_002_addemployee -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
