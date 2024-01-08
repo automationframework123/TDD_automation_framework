@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,13 +24,28 @@ public class Pimpage extends BasePage
 	
 	@FindBy(xpath="//input[@placeholder='Last Name']")
 	WebElement txtln;
-;
+
 	
 	@FindBy(xpath="//button[normalize-space()='Save']")
 	WebElement btnsave;
 	
 	@FindBy(xpath="//div[@class=\"orangehrm-edit-employee-name\"]//h6")
     WebElement lblname;
+	
+	@FindBy(xpath="//a[normalize-space()='Employee List']")
+	WebElement btnemployeelist;
+	
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]")
+	WebElement drpempstatus;
+	
+	@FindBy(xpath="//div[@role='option']//span")
+	List<WebElement> option;
+	
+	@FindBy(xpath="//button[normalize-space()=\"Search\"]")
+	WebElement btnsearch;
+	
+	@FindBy(xpath="//div[@aria-live='assertive']")
+	WebElement lblsrchstatus;
 	
 	public void clickpim()
 	{
@@ -60,6 +77,33 @@ public class Pimpage extends BasePage
 		{
 			return(false);
 		}
+	}
+	
+	public void searchemployee() throws InterruptedException
+	{
+		Thread.sleep(2000);
+		btnemployeelist.click();
+		Thread.sleep(2000);
+		drpempstatus.click();
+		Thread.sleep(2000);
+		for(WebElement opt:option)
+		{
+			if(opt.getText().equals("Freelance"))
+			{
+				opt.click();
+				Thread.sleep(2000);
+				break;
+			}
+		}
+		btnsearch.click();
+		Thread.sleep(2000);
+	}
+	
+	public boolean  verifysearch()
+	{
+		String txt=lblsrchstatus.getText();
+		return(txt.contains("No Records Found"));
+		
 	}
 	
 }

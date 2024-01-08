@@ -4,7 +4,7 @@
   <groups>
  		<run>
  			<include name="sanity"/>
- 			<!--<include name="regression"/>-->
+ 			<include name="regression"/>
  			<!--<include name="master"/>-->
  			<!--<exclude name=""/>-->
  		</run>
@@ -20,7 +20,7 @@
   	   <classes>
      	<class name="testCases.TC_001_OrangeDemoLoginPageTest"/>
      	<class name="testCases.TC_002_addemployee"/>
-  
+        <class name="testCases.TC_003_searchemployee"/>
        </classes>
    </test> 
 </suite> 
