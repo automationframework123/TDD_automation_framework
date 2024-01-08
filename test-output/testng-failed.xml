@@ -9,6 +9,7 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
+        <include name="sanity"/>
         <include name="regression"/>
       </run>
     </groups>

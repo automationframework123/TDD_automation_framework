@@ -1,2 +1,24 @@
 19:11:03.479 [main] INFO  testCases.TC_003_searchemployee - searchemp is clicked
 19:11:03.539 [main] INFO  testCases.TC_003_searchemployee - ******Finished TC_003_search employee
+09:58:34.686 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Starting TC_001_OrangeDemoLoginPageTest *****
+09:58:34.722 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Entering valid username and password from config file  *****
+09:58:35.245 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Clicked on LoginButton link *****
+09:58:39.525 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - Login test passed
+09:58:39.530 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Finished TC_001_OrangeDemoLoginPageTestTest *****
+09:58:46.472 [main] INFO  testCases.TC_002_addemployee - *****Starting TC_002_addemployee*****
+09:58:58.661 [main] INFO  testCases.TC_002_addemployee - ****Finished TC_002 Add employee data
+09:59:05.727 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+09:59:11.083 [main] INFO  testCases.TC_003_searchemployee - pim is clicked in dashboard
+09:59:21.905 [main] INFO  testCases.TC_003_searchemployee - searchemp is clicked
+09:59:31.963 [main] ERROR testCases.TC_003_searchemployee - Test case failed
+10:03:30.705 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Starting TC_001_OrangeDemoLoginPageTest *****
+10:03:30.763 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Entering valid username and password from config file  *****
+10:03:31.384 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Clicked on LoginButton link *****
+10:03:35.497 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - Login test passed
+10:03:35.502 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Finished TC_001_OrangeDemoLoginPageTestTest *****
+10:03:43.110 [main] INFO  testCases.TC_002_addemployee - *****Starting TC_002_addemployee*****
+10:03:55.071 [main] INFO  testCases.TC_002_addemployee - ****Finished TC_002 Add employee data
+10:04:02.000 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+10:04:06.448 [main] INFO  testCases.TC_003_searchemployee - pim is clicked in dashboard
+10:04:17.275 [main] INFO  testCases.TC_003_searchemployee - searchemp is clicked
+10:04:27.333 [main] ERROR testCases.TC_003_searchemployee - Test case failed
