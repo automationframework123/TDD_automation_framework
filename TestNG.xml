@@ -14,7 +14,7 @@
   		<listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="Test1">
   	<parameter name="os" value="windows"></parameter>  
  	<parameter name="browser" value="chrome"></parameter>
   	   <classes>
@@ -23,4 +23,15 @@
   
        </classes>
    </test> 
+   
+   <test thread-count="5" name="Test2">
+  	<parameter name="os" value="windows"></parameter>  
+ 	<parameter name="browser" value="edge"></parameter>
+  	   <classes>
+     	<class name="testCases.TC_001_OrangeDemoLoginPageTest"/>
+     	<class name="testCases.TC_002_addemployee"/>
+  
+       </classes>
+   </test> 
+
 </suite> 

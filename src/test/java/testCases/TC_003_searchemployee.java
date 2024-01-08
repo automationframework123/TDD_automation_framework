@@ -28,7 +28,7 @@ public class TC_003_searchemployee extends BaseClass
 			pm.searchemployee();
 			logger.info("searchemp is clicked");
 			boolean bool1=pm.verifysearch();
-			Assert.assertEquals(bool1, false);
+			Assert.assertEquals(bool1, true);
 			
          }catch(Exception e)
 		{
