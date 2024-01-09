@@ -102,8 +102,3 @@ public class Pimpage extends BasePage
 	public boolean  verifysearch()
 	{
 		String txt=lblsrchstatus.getText();
-		return(txt.contains("No Records Found"));
-		
-	}
-	
-}
