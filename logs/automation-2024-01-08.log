@@ -1,0 +1,52 @@
+14:31:15.454 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - Login test passed
+14:31:15.464 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Finished TC_001_OrangeDemoLoginPageTestTest *****
+14:31:20.897 [main] INFO  testCases.TC_002_addemployee - *****Starting TC_002_addemployee*****
+14:31:32.167 [main] INFO  testCases.TC_002_addemployee - ****Finished TC_002 Add employee data
+14:31:43.897 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+14:31:59.004 [main] ERROR testCases.TC_003_searchemployee - Test case failed
+14:34:49.872 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Starting TC_001_OrangeDemoLoginPageTest *****
+14:34:49.894 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Entering valid username and password from config file  *****
+14:34:50.460 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Clicked on LoginButton link *****
+14:34:55.217 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - Login test passed
+14:34:55.220 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Finished TC_001_OrangeDemoLoginPageTestTest *****
+14:35:00.868 [main] INFO  testCases.TC_002_addemployee - *****Starting TC_002_addemployee*****
+14:35:12.584 [main] INFO  testCases.TC_002_addemployee - ****Finished TC_002 Add employee data
+14:35:18.779 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+14:35:34.143 [main] ERROR testCases.TC_003_searchemployee - Test case failed
+14:37:51.516 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+14:38:06.829 [main] ERROR testCases.TC_003_searchemployee - Test case failed
+17:50:33.460 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+17:50:49.338 [main] ERROR testCases.TC_003_searchemployee - Test case failed
+17:54:29.131 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+17:54:48.375 [main] ERROR testCases.TC_003_searchemployee - Test case failed
+17:57:50.311 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+17:57:54.589 [main] INFO  testCases.TC_003_searchemployee - pim is clicked in dashboard
+17:58:09.447 [main] ERROR testCases.TC_003_searchemployee - Test case failed
+18:05:50.645 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+18:05:55.241 [main] INFO  testCases.TC_003_searchemployee - pim is clicked in dashboard
+18:06:06.471 [main] INFO  testCases.TC_003_searchemployee - searchemp is clicked
+18:06:06.548 [main] INFO  testCases.TC_003_searchemployee - ******Finished TC_003_search employee
+18:14:27.563 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+18:14:31.973 [main] INFO  testCases.TC_003_searchemployee - pim is clicked in dashboard
+18:14:43.122 [main] INFO  testCases.TC_003_searchemployee - searchemp is clicked
+18:14:43.182 [main] INFO  testCases.TC_003_searchemployee - ******Finished TC_003_search employee
+18:58:33.866 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Starting TC_001_OrangeDemoLoginPageTest *****
+18:58:33.933 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Entering valid username and password from config file  *****
+18:58:34.695 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Clicked on LoginButton link *****
+18:58:38.958 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - Login test passed
+18:58:38.964 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Finished TC_001_OrangeDemoLoginPageTestTest *****
+18:58:46.702 [main] INFO  testCases.TC_002_addemployee - *****Starting TC_002_addemployee*****
+18:59:00.080 [main] INFO  testCases.TC_002_addemployee - ****Finished TC_002 Add employee data
+18:59:08.284 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+18:59:15.187 [main] INFO  testCases.TC_003_searchemployee - pim is clicked in dashboard
+18:59:26.648 [main] INFO  testCases.TC_003_searchemployee - searchemp is clicked
+18:59:26.737 [main] INFO  testCases.TC_003_searchemployee - ******Finished TC_003_search employee
+19:10:11.685 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Starting TC_001_OrangeDemoLoginPageTest *****
+19:10:11.739 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Entering valid username and password from config file  *****
+19:10:13.279 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Clicked on LoginButton link *****
+19:10:19.551 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - Login test passed
+19:10:19.559 [main] INFO  testCases.TC_001_OrangeDemoLoginPageTest - ***** Finished TC_001_OrangeDemoLoginPageTestTest *****
+19:10:27.519 [main] INFO  testCases.TC_002_addemployee - *****Starting TC_002_addemployee*****
+19:10:40.120 [main] INFO  testCases.TC_002_addemployee - ****Finished TC_002 Add employee data
+19:10:48.038 [main] INFO  testCases.TC_003_searchemployee - *****Search Customer******
+19:10:52.379 [main] INFO  testCases.TC_003_searchemployee - pim is clicked in dashboard
