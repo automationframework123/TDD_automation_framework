@@ -35,7 +35,8 @@ public class Pimpage extends BasePage
 	@FindBy(xpath="//a[normalize-space()='Employee List']")
 	WebElement btnemployeelist;
 	
-	@FindBy(xpath="//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]")
+	//@FindBy(xpath="//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]")
+	@FindBy(xpath="//div[@class='oxd-table-filter']//div[3]//div[1]//div[2]//div[1]//div[1]//div[2]")
 	WebElement drpempstatus;
 	
 	@FindBy(xpath="//div[@role='option']//span")
@@ -102,8 +103,8 @@ public class Pimpage extends BasePage
 	public boolean  verifysearch()
 	{
 		String txt=lblsrchstatus.getText();
-		//return(txt.contains("No Records Found"));
-		return false;
+		return(txt.contains("No Records Found"));
+		
 	}
 	
 }
